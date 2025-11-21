@@ -1,0 +1,12 @@
+--- cliclack-0.3.7/Cargo.toml	1970-01-01T00:00:01+00:00
++++ cliclack-0.3.7/Cargo.toml	2026-01-22T11:34:17.946182+00:00
+@@ -99,8 +99,9 @@
+ name = "vec"
+ path = "examples/vec.rs"
+
+ [dependencies.console]
+-version = "0.15.8"
++version = ">=0.15.8,<=0.17.0"
+
+ [dependencies.indicatif]
+ version = "0.18.3"

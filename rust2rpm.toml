@@ -1,0 +1,5 @@
+[package]
+
+cargo-toml-patch-comments = [
+    "relax console dependency from ^0.15.8 to >=0.15.8,<0.17.0",
+]
